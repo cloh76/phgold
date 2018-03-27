@@ -1,37 +1,19 @@
 {
-  "name": "steem-bot",
-  "version": "0.7.0",
-  "description": "Easy automation on top of Steem blockchain",
-  "main": "dist/loader.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./dist && mkdir dist && babel src --out-dir ./dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/p0o/steem-bot.git"
-  },
-  "keywords": [
-    "steem",
-    "steemit",
-    "blockchain",
-    "automation",
-    "bot"
-  ],
-  "author": "p0o",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/p0o/steem-bot/issues"
-  },
-  "homepage": "https://github.com/p0o/steem-bot#readme",
+  "name": "upvoteph",
+  "version": "1.0.0",
+  "description": "ph upvote bot",
+  "main": "voter.js",
   "dependencies": {
-    "steem": "^0.6.2"
+    "eris": "^0.8.1",
+    "mysql": "^2.15.0",
+    "pm2": "^2.7.2",
+    "steem": "^0.6.4",
+    "xmlhttprequest": "^1.8.0"
   },
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.25.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-stage-3": "^6.24.1",
-    "babel-register": "^6.24.1"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
