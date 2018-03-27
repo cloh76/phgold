@@ -5,6 +5,7 @@
   "main": "voter.js",
   "dependencies": {
     "eris": "^0.8.1",
+    "moment": "^2.21.0",
     "mysql": "^2.15.0",
     "pm2": "^2.7.2",
     "steem": "^0.6.4",
