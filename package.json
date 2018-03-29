@@ -1,17 +1,20 @@
 {
-  "name": "Discord-Bot-Maker-Bot",
-  "author": "Robert Borghese",
-  "main": "bot.js",
-  "version": "1.3.0-beta.5",
+  "name": "upvoteph",
+  "version": "1.0.0",
+  "description": "ph upvote bot",
+  "main": "voter.js",
   "dependencies": {
-    "cleverbot.io": "^1.0.4",
-    "discord.js": "^11.3.0",
-    "extend": "^3.0.1",
-    "fstorm": "^0.1.3",
-    "google-translate-api": "^2.3.0",
-    "jimp": "^0.2.28",
-    "randomatic": "^3.0.0",
-    "request": "^2.85.0",
-    "valid-url": "^1.0.9"
-  }
+    "eris": "^0.8.1",
+    "moment": "^2.21.0",
+    "mysql": "^2.15.0",
+    "pm2": "^2.7.2",
+    "steem": "^0.6.4",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
