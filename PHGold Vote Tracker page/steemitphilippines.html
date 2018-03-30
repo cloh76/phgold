@@ -113,7 +113,7 @@
           <span id="sbd_price_container">SBD - $<span id="sbd_price">loading...</span></span>
 
           <div style="float: right;">
-            <a href="#">More Information</a> | <a id="invest_link" href="https://steembottracker.com/delegation.html?delegatee=upvoteph">Become an Investor</a>
+            <a href="javascript:void(0);" onclick="$('#more_info_dialog').modal();">More Information</a> | <a id="invest_link" href="https://steembottracker.com/delegation.html?delegatee=upvoteph">Become an Investor</a>
           </div>
         </div>
       </div>
@@ -148,6 +148,28 @@
           </div>
         </div>
       </div>
+
+
+    <div class="modal fade" id="more_info_dialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel" style="text-align: center;">Guidelines & Rules</h4>
+          </div>
+          <div class="modal-body" style="margin: 20px 50px;">
+            <ol>
+              <li>Membership is on an invite basis ONLY</br></br></li>
+              <li>You MUST continue to be a contributing member of the Steemit Philippines Community in order to retain your PH GOLD Status</br></br></li>
+              <li>You may register to use the PHGold bot by sending 2 SBD to phgold on Steemit.com with memo register then type $register &lt;steemit username&gt; in the registration channel  (This is a one-time registration fee.)</br></br></li>
+              <li>To Upvote your posts using the PHGold Bot once you are registered, type $vote &lt;Post URL&gt; in the upvote-gold channel.  You can upvote one Post every 12 hours</br></br></li>
+              <li>If you feel someone deserves to be considered for PH GOLD, you can nominate them by having them <a href="https://docs.google.com/forms/d/1LxiAh8u2yPfIyBDcsxvsNCO5JIspTw__ajU-0zKUFLc">fill out this form</a></br></br></li>
+            </ol>
+            Nominees and Applicants are reviewed on a first-come-first-serve basis!
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </body>
 </html>
